@@ -1,5 +1,5 @@
 <?php
-namespace BulkWP\BulkDelete\Core\Terms;
+namespace BulkWP\BulkDelete\Core\Attachments;
 
 use BulkWP\BulkDelete\Core\Base\BaseModule;
 
@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit; // Exit if accessed directly.
  *
  * @since 6.0.0
  */
-abstract class TermsModule extends BaseModule {
+abstract class AttachmentsModule extends BaseModule {
 	/**
 	 * Get the list of terms ids that need to be deleted.
 	 *
